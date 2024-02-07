@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessibility Bio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Accessibility Bio: Haris Sattar</h1>
+      <img src="./headshot.jpg" alt="Your Name" id="headshot" />
+    </header>
+
+    <nav>
+      <ul class="sections">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          My name is Haris Sattar and I am a junior computer science major from
+          Austin, Texas. Throughout my life, I have been a big fan of the
+          Washington Commanders. They are the greatest team to ever exist. I
+          hope they can win the super bowl this year. We shall see!
+        </p>
+
+        <strong>Personal interests</strong>
+        <ul>
+          <li>Football</li>
+          <li>Basketball</li>
+          <li>Thrifting</li>
+          <li><a href="https://spikeball.com">Spikeball</a></li>
+          <li>
+            Playing the
+            <a href="https://en.wikipedia.org/wiki/Theremin">theremin</a>
+          </li>
+        </ul>
+        <img src="lebron.jpeg" alt="Lebron James looking at jersey" />
+      </section>
+
+      <section id="interests">
+        <h2>Accessibility Interests</h2>
+        <p>
+          I am interested about the everyday accessibility issues that I am
+          unware of. When I think of accessibility, I think of needing ramps for
+          people in wheelchairs and captions for being who can't hear. To me,
+          these are kind of basic. I want to learn about the more niche issues
+          that still have an impact on people's everyday lives.
+        </p>
+        <img
+          src="bruh.jpeg"
+          alt="A drawing made by a child that depicts a family"
+        />
+      </section>
+
+      <section id="contact">
+        <h2><a href="mailto:harissattar@tamu.edu">Contact Me</a></h2>
+        <form
+          action="mailto:harissattar@tamu.edu"
+          method="post"
+          enctype="text/plain"
+        >
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required /><br />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required /><br />
+          <label for="message">Message:</label><br />
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            cols="50"
+            required
+          ></textarea
+          ><br />
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Haris Sattar</p>
+    </footer>
+  </body>
+</html>
